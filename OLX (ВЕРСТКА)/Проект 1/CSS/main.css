@@ -95,7 +95,7 @@ header .center_triangle{
 header .right_square{
 	background-image: url(../img/first_screen/header_right_square.png);
 	background-repeat: no-repeat;
-	width: 100%;
+	width: 35%;
 	margin-top: 20%;
 	margin-left: 8%;
 	height: 123px;
@@ -111,7 +111,8 @@ header .right_square{
 	background-image: url(../img/first_screen/header_circle.png);
 	width: 25%;
 	background-repeat: no-repeat;
-	margin-left: 25px;
+	margin-left: 2%;
+	margin-bottom: 10%;
 	font-family: HelveticaNeueCyr-Medium;
 	font-size: 18px;
 	color: #fff;
@@ -121,11 +122,12 @@ header .right_square{
 	background-image: url(../img/first_screen/header_circle.png);
 	width: 25%;
 	background-repeat: no-repeat;
-	margin-left: -16px;
+	margin-left: -2%;
 	font-family: HelveticaNeueCyr-Medium;
 	font-size: 18px;
 	color: #fff;
 	text-transform: uppercase;
+	margin-bottom: 5%;
 }
 
 #buyer img{
