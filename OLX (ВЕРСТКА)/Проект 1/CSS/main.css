@@ -1,8 +1,12 @@
+.main_wrap{
+	max-width: 1900px;
+	margin:auto;
+}
+
 /*NAV*/
 #nav_logo{
 	max-width: 100px;
-	height: 100px;
-	margin-top: 2;
+	margin-top: 2%;
 	background-repeat: no-repeat;
 	background-image: url(../img/logo/2f4f22766be42e5eac379976b5237b92ca.svg);
 }
@@ -22,8 +26,8 @@ nav ul a:hover{
 nav ul li{
 	display: inline-block;
 	text-transform: uppercase;
-	margin-right: 32px;
-	margin-top: 60px;
+	margin-right: 3%;
+	margin-top: 6%;
 }
 
 
@@ -35,13 +39,9 @@ nav ul li{
 /*HEADER*/
 header{
 	height: 893px;
-	max-width: 100%;
 	background-repeat: no-repeat;
 	background-image: url(../img/first_screen/header_bg.jpg);
 	background-position: center;
-	position: relative;
-	margin: auto;
-	z-index: -2;
 }
 header #safe_deal{
 	font-family: PT Sans Caption;
@@ -49,61 +49,59 @@ header #safe_deal{
 	color: #b0ba26;
 	text-align: center;
 	text-transform: uppercase;
-	margin-top: 74px;
-	margin-bottom: 0px;
+	margin-top: 7%;
 	font-weight: bold;
 }
 header #from{
 	font-family: PT Sans Caption;
 	font-size: 36px;
 	color: #b0ba26;
-	text-align: center;
-	margin-top: 20px;
+	margin-top: 2%;
 	line-height: 36px;
 	font-weight: bold;
+	text-align: right;
+	margin-left: 3%;
 }
 header #logo{
 	background-image: url(../img/logo/2f4f22766be42e5eac379976b5237b92ca.svg);
-	width: 66px;
-	height: 66px;
 	background-repeat: no-repeat;
+	margin-left: 1%;
+	margin-bottom: -1%;
+
 }
-header #left_square{
+header .left_square{
 	background-image: url(../img/first_screen/header_left_square.png);
 	background-repeat: no-repeat;
-	margin-top: 223px;
-	margin-left: -15px;
-	width: 429px;
+	width: 35%;
+	margin-top: 20%;
+	margin-left: -1%;
 	height: 123px;
-	padding-top: 30px;
-	padding-left: 104px;
-	vertical-align: center;
+	padding-top: 2.5%;
+	padding-left: 10%;
 	font-family: HelveticaNeueCyr;
 	color: #fff;
 	font-size: 22px;
 	text-transform: uppercase;
 }
 
-header #center_triangle{
+header .center_triangle{
 	background-image: url(../img/first_screen/header_center_triangle.png);
-	width: 92px;
-	height: 106px;
 	background-repeat: no-repeat;
-	margin-top: 170px;
-	margin-left: 77px;
+	width: 8%;
+	margin-top: 16%;
+	margin-left: 13%;
 }
 
-header #right_square{
+header .right_square{
 	background-image: url(../img/first_screen/header_right_square.png);
 	background-repeat: no-repeat;
-	margin-top: -125px;
-	margin-left: 713px;
-	width: 429px;
-	height: 125px;
-	padding-top: 30px;
-	padding-left: 104px;
-	vertical-align: center;
-	font-family: HelveticaNeueCyr-Medium;
+	width: 100%;
+	margin-top: 20%;
+	margin-left: 8%;
+	height: 123px;
+	padding-top: 2.5%;
+	padding-left: 10%;
+	font-family: HelveticaNeueCyr;
 	color: #fff;
 	font-size: 22px;
 	text-transform: uppercase;
